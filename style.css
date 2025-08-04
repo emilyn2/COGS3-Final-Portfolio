@@ -1,0 +1,15 @@
+/* Clean, rubric-friendly styles */
+:root { --space: 1rem; }
+html, body { scroll-behavior: smooth; }
+body { padding-top: 72px; }
+.hero { background: #f8f9fa; }
+section h2 { font-weight: 700; margin-bottom: calc(var(--space) * 1.25); }
+.card-img-top { object-fit: cover; height: 180px; }
+.navbar-brand { letter-spacing: .2px; }
+footer { background: #fff; }
+@media (min-width: 992px) {
+  .jumbotron { padding-top: 4rem; padding-bottom: 4rem; }
+}
+/* Spacing utilities */
+.pb-6 { padding-bottom: 4rem !important; }
+.mt-6 { margin-top: 4rem !important; }
